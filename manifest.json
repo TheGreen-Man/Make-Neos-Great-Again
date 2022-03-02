@@ -1,0 +1,18 @@
+{
+
+  "manifest_version": 2,
+  "name": "Make-Neos-Great-Again!",
+  "version": "1.0",
+
+  "description": "Make neos great again!" ,
+
+  "permissions" : [ "*://neos.corp.ncr.com/*" ],
+
+  "content_scripts": [
+    {
+      "matches": ["*://neos.corp.ncr.com/*"],
+      "js": ["make_neos_great_again.js"]
+    }
+  ]
+
+}
